@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Refresher",
+  "version": "1.0",
+  "description": "This extension refreshes the ChatGPT login page every 5 seconds until the service is ready.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
